@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="mymodule.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/modules/mymodule/mymodule.php">
+    <method v="2" />
+  </configuration>
+</component>

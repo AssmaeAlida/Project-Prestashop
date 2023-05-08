@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>samplemodule</name>
+    <displayName><![CDATA[Prestashop Asmaa Module]]></displayName>
+    <version><![CDATA[0.1.1]]></version>
+    <description><![CDATA[Prestashop Asmaa Module with front controller]]></description>
+    <author><![CDATA[Asmaa]]></author>
+    <tab><![CDATA[Liste des ventes]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
