@@ -1,40 +1,40 @@
-#negochat-container {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    height: 400px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-}
-
-#negochat-header {
-    background-color: #f5f5f5;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-}
-
-#negochat-messages {
-    height: 300px;
-    overflow-y: scroll;
-    padding: 10px;
+#negochat {
+    text-align: center;
 }
 
 #negochat-form {
     display: flex;
-    align-items: center;
-    padding: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
 #negochat-input {
-    flex-grow: 1;
-    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
 }
 
-#negochat-submit {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
+#negochat-messages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#negochat-message {
+    background-color: #f2f2f2;
     padding: 10px;
-    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    max-width: 70%;
+}
+
+#negochat-message p {
+    margin: 0;
+}
+
+#negochat-message time {
+    font-size: 12px;
+    color: #666;
+    margin-left: 5px;
 }

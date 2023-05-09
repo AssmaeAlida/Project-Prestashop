@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2023-05-07 21:50:19
+/* Smarty version 3.1.39, created on 2023-05-08 16:30:08
   from 'C:\xampp\htdocs\presta\admin9815nicrx\themes\default\template\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_64580f0b7a7569_71793869',
+  'unifunc' => 'content_6459158008c127_05805324',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:error.tpl' => 1,
   ),
 ),false)) {
-function content_64580f0b7a7569_71793869 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6459158008c127_05805324 (Smarty_Internal_Template $_smarty_tpl) {
 ?>         <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayAdminEndContent'),$_smarty_tpl ) );?>
 
 	</div>

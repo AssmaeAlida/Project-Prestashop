@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2023-05-07 22:04:32
+/* Smarty version 3.1.39, created on 2023-05-08 18:00:46
   from 'C:\xampp\htdocs\presta\admin9815nicrx\themes\default\template\helpers\calendar\calendar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_645812602fe274_81465145',
+  'unifunc' => 'content_64592abecd7427_54122744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_645812602fe274_81465145 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64592abecd7427_54122744 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="datepicker" class="row row-padding-top hide">
 	<div class="col-lg-12">
 		<div class="daterangepicker-days">

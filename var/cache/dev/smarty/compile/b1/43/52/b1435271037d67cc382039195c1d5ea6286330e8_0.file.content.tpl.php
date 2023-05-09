@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.39, created on 2023-05-08 00:39:41
+/* Smarty version 3.1.39, created on 2023-05-08 20:59:16
   from 'C:\xampp\htdocs\presta\admin9815nicrx\themes\default\template\controllers\login\content.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_645836bd884bd0_73616573',
+  'unifunc' => 'content_645954948ec034_28633119',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_645836bd884bd0_73616573 (Smarty_Internal_Template $_smarty_tpl) {
+function content_645954948ec034_28633119 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\xampp\\htdocs\\presta\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 ?>
 <div id="login-panel">

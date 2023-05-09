@@ -12,6 +12,7 @@ class NegoChat extends Module
         $this->version = '1.0.0';
         $this->author = 'Assmae ';
         $this->need_instance = 0;
+        $this->controllers = array('hookDisplayHeader');
         $this->ps_versions_compliancy = array('min' => '1.7', 'max' => _PS_VERSION_);
         $this->bootstrap = true;
 
@@ -95,5 +96,12 @@ class NegoChat extends Module
     {
         $this->context->controller->addJS($this->_path . 'views/js/negochat.js');
         $this->context->controller->addCSS($this->_path . 'views/css/negochat.css');
+
     }
+
+
+
+
+
+
 }
