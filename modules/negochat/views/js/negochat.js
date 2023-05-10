@@ -1,4 +1,7 @@
-$(document).ready(function() {
+function addQuestionToInput(question) {
+    var input = document.getElementById("negochat-input");
+    input.value = question;
+}$(document).ready(function() {
     // Récupérer le formulaire de negochat
     var form = $('#negochat-form');
 
@@ -9,8 +12,9 @@ $(document).ready(function() {
     var messages = $('#negochat-messages');
 
     // Fonction pour ajouter un message à la zone d'affichage des messages
-    function addMessage(message) {
-        messages.append('<div class="message">' + message + '</div>');
+    function addMessage(message, sender) {
+        var className = sender ? 'sender' : 'receiver';
+        messages.append('<div class="message ' + className + '"><p>' + message + '</p></div>');
     }
 
     // Écouter l'événement de soumission du formulaire
@@ -22,9 +26,12 @@ $(document).ready(function() {
         var message = input.val();
 
         // Ajouter le message à la zone d'affichage des messages
-        addMessage(message);
+        addMessage(message, true);
 
         // Effacer la zone de saisie du message
         input.val('');
     });
+
+    // Exemple d'ajout de message d'un expéditeur fictif
+    addMessage('Hello, comment ça va ?', false);
 });
