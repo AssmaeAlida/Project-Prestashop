@@ -1,7 +1,18 @@
 function addQuestionToInput(question) {
     var input = document.getElementById("negochat-input");
     input.value = question;
-}$(document).ready(function() {
+}
+
+function addResponseToInput(response) {
+    var message = document.createElement("div");
+    message.classList.add("negochat-message");
+    message.classList.add("negochat-response-message");
+    message.innerHTML = response;
+    document.getElementById("negochat-messages").appendChild(message);
+}
+
+
+    $(document).ready(function() {
     // Récupérer le formulaire de negochat
     var form = $('#negochat-form');
 
@@ -16,6 +27,7 @@ function addQuestionToInput(question) {
         var className = sender ? 'sender' : 'receiver';
         messages.append('<div class="message ' + className + '"><p>' + message + '</p></div>');
     }
+
 
     // Écouter l'événement de soumission du formulaire
     form.submit(function(event) {
@@ -33,5 +45,8 @@ function addQuestionToInput(question) {
     });
 
     // Exemple d'ajout de message d'un expéditeur fictif
-    addMessage('Hello, comment ça va ?', false);
+     addMessage(message, true);
+
+
+
 });

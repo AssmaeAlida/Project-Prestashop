@@ -7,7 +7,8 @@
     border-radius: 5px;
     overflow: hidden;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    background-color: #cfeef5;
 }
 
 #negochat-form {
@@ -44,18 +45,24 @@
 }
 
 .sender {
-    background-color: #87CEFA;
+
+    background-color: #adbfce;
     align-self: flex-end;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
-.receiver {
-    background-color: #f2f2f2;
+.negochat-message.negochat-response-message {
+    background-color: #adbfce;
+    border-radius:5px;
+    width: 50px;
+    margin-top: 15px;
 }
 
 #negochat-form button[type="submit"] {
     width: 60px; /* Largeur du bouton d'envoi */
     height: 40px; /* Hauteur du bouton d'envoi */
-    margin: 10px; /* Ajoute de l'espace autour du bouton d'envoi */
+    margin: 0px; /* Ajoute de l'espace autour du bouton d'envoi */
     background-color: #4c95af; /* Couleur de fond du bouton d'envoi */
     color: white; /* Couleur du texte du bouton d'envoi */
     border: none; /* Supprime la bordure du bouton d'envoi */
@@ -67,4 +74,5 @@
     color: blue;
     cursor: pointer;
 }
+
 
